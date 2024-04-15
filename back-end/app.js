@@ -27,9 +27,7 @@ app.use((error, req, res, next) => {
 });
 
 mongoose
-  .connect(
-    'mongodb+srv://aliakin:0123456789@atlascluster.jrj3if8.mongodb.net/places?retryWrites=true&w=majority&appName=AtlasCluster'
-  )
+  .connect('***')
   .then(() => {
     app.listen(4999);
   })
