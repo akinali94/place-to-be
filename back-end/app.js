@@ -51,7 +51,7 @@ mongoose
     'mongodb+srv://aliakin:0123456789@atlascluster.jrj3if8.mongodb.net/mern?retryWrites=true&w=majority&appName=AtlasCluster'
   )
   .then(() => {
-    app.listen(4999);
+    app.listen(process.env.PORT || 4999);
   })
   .catch((err) => {
     console.log(err);

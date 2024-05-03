@@ -1,0 +1,9 @@
+{
+  "env": {
+    "DB_USER": "aliakin",
+    "DB_PASSWORD": "0123456789",
+    "DB_NAME": "mern",
+    "GOOGLE_API_KEY": "AIzaSyAatWImuwJnGvCybqmbI4eaX5-T1QCiOXo",
+    "JWT_KEY": "supersecret_dont_share"
+  }
+}
