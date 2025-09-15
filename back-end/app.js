@@ -48,7 +48,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    'mongodb+srv://aliakin:0123456789@atlascluster.jrj3if8.mongodb.net/mern?retryWrites=true&w=majority&appName=AtlasCluster'
+    process.env.MONGO_URI
   )
   .then(() => {
     app.listen(process.env.PORT || 4999);
